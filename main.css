@@ -1,1 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 @import url(style/comman.css);
+@import url(style/nav.css);
+@import url(style/sidebar.css);
+@import url(style/Avatar.css);
+@import url(style/Alerts.css);
