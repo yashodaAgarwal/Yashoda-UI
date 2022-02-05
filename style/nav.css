@@ -1,7 +1,4 @@
 .navbar {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
   font-size: 18px;
   position: fixed;
   width: 100%;
@@ -13,7 +10,6 @@
 }
 
 .navbar-list {
-  display: flex;
   list-style: none;
   text-decoration: none;
   width: 100%;
@@ -51,7 +47,7 @@
 }
 .left-main-section-container {
   flex-basis: 100%;
-  display: flex;
+  /* display: flex;  */
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
@@ -106,6 +102,10 @@
   position:relative;
   z-index: -1;
   margin-top: 80px;
+}
+.image{
+  height: 500px;
+  width: 500px;
 }
 
 .footer{
