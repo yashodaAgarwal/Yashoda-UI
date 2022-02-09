@@ -75,22 +75,22 @@
   transition: all 0.3s ease-in-out;
 }
 
-.btn-primary {
+.btn-use {
   background-color: var(--background-color);
   color: var(--white-color);
   font-weight: 800;
 }
-.btn-primary:hover {
+.btn-use:hover {
   background-color: var(--hover-color);
   opacity: 0.7;
 }
-.btn-secondary {
+.btn-docs {
   background-color: var(--white-color);
   color: var(--background-color);
   border: 1.5px solid var(--background-color);
   font-weight: 800;
 }
-.btn-secondary:hover {
+.btn-docs:hover {
   color: var(--hover-color);
   border-color: var(--background-color);
   opacity: 0.7;

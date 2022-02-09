@@ -8,6 +8,7 @@
       src="https://kit.fontawesome.com/86189ed851.js"
       crossorigin="anonymous"
     ></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="main.css" />
     <title>Document</title>
   </head>
@@ -18,7 +19,7 @@
       <a href="index.html" class="Logo" href="#"><strong>YASHODA</strong></a>
       <ul class="navbar-list flex">
         <li class="navbar-list-item"><a href="index.html">Home</a></li>
-        <li class="navbar-list-item icons">
+        <li class="navbar-list-item ">
           <a href="./component.html">Documentation</a>
         </li>
         <li class="navbar-list-item">
@@ -60,7 +61,7 @@
           </a>
         </li>
         <li>
-          <a href="buttons">
+          <a href="#buttons">
             <span>Button</span>
           </a>
         </li>
@@ -101,7 +102,7 @@
         src="https://carbon.now.sh/embed?bg=rgba%28248%2C192%2C200%2C0.94%29&t=base16-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=46px&ph=49px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=13.5px&lh=130%25&si=false&es=2x&wm=false&code=%250A%2520%2520%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%2520class%253D%2522kitty%2520%2520avatar-xl%2522%2520%252F%253E%250A%2520%2520%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%2520class%253D%2522kitty%2520%2520avatar-l%2522%2520%252F%253E%250A%2520%2520%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%2520class%253D%2522kitty%2520%2520avatar-md%2522%2520%252F%253E%250A%2520%2520%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%2520class%253D%2522kitty%2520%2520avatar-s%2522%2520%252F%253E%250A"
         style="
           width: 100%;
-          height: 254px;
+          height: 270px;
           border: 0;
           transform: scale(1);
           overflow: hidden;
@@ -134,6 +135,140 @@
       </iframe>
     </section>
 
+
+    <!-- ---- Badges----  -->
+
+    <section class="main-title" id="badges">
+      <h2 class="avatar-heading">Badges</h2>
+      <p class="component-navbar-item">
+        Badges are used to highlight an item's status for quick recognition.Badges scale to match the size of the immediate parent element by using relative font sizing and rem units.
+      </p>
+      <h3 class="avatar-heading">Badge with Icons</h3>
+      <p class="component-navbar-item">
+        To show cart or notification count, you can use number badge. Check code below to copy the html part as is.
+      </p>
+      <div class="badge-items flex">
+        <button  class="badge-button flex center badge-xl">
+          <i class="fas fa-bell fa-4x"></i>
+          <span class="icon-button-badge flex center icon-xl">2</span>
+        </button>
+        <button  class="badge-button flex center badge-lg">
+          <i class="fas fa-envelope fa-3x"></i>
+          <span class="icon-button-badge flex center icon-l">2</span>
+        </button>
+        <button  class="badge-button flex center badge-md">
+          <i class="fab fa-whatsapp fa-2x"></i>
+          <span class="icon-button-badge flex center icon-md">2</span>
+        </button>
+      </div>
+
+      <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28248%2C192%2C200%2C0.94%29&t=base16-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=39px&ph=50px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=13.5px&lh=130%25&si=false&es=2x&wm=false&code=%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522badge-button%2520badge-xl%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bell%2520fa-4x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-button-badge%2520icon-xl%2522%253E2%253C%252Fspan%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522badge-button%2520badge-lg%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope%2520fa-3x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-button-badge%2520icon-l%2522%253E2%253C%252Fspan%253E%250A%2520%253C%252Fbutton%253E%250A%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522badge-button%2520badge-md%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fab%2520fa-whatsapp%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-button-badge%2520icon-md%2522%253E2%253C%252Fspan%253E%250A%2520%253C%252Fbutton%253E%250A%250A"
+  style="width: 100%; height: 398px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+      
+      <h3 class="avatar-heading">Badge with avatar</h3>
+      <p class="component-navbar-item">
+        Badges can be integrated with Avatars by showing colors to show the online status of user. 
+      </p>
+
+      <div class="badge-items flex">
+        <div class="badge-avatar flex badge-xl">
+          <img src="./Asset/kitty.png" alt="" class="kitty avatar-xl" /><span
+            class="icon-avatar-badge flex icon-lg"
+          ></span>
+        </div>
+        <div class="badge-avatar flex badge-xl">
+          <img src="./Asset/kitty.png" alt="" class="kitty avatar-lg" /><span
+            class="icon-avatar-badge flex icon-lg"
+          ></span>
+        </div>
+        <div class="badge-avatar flex badge-xl">
+          <img src="./Asset/kitty.png" alt="" class="kitty avatar-md" /><span
+            class="icon-avatar-badge flex icon-lg"
+          ></span>
+        </div>
+      </div>
+      <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28248%2C192%2C200%2C0.94%29&t=base16-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=39px&ph=50px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=13.5px&lh=130%25&si=false&es=2x&wm=false&code=%250A%253Cdiv%2520class%253D%2522badge-avatar%2520badge-xl%2522%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522.%252FAsset%252Fkitty.png%2522%2520alt%253D%2522%2522%2520class%253D%2522kitty%2520avatar-xl%2522%2520%252F%253E%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-avatar-badge%2520icon-l%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-avatar%2520badge-xl%2522%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522.%252FAsset%252Fkitty.png%2522%2520alt%253D%2522%2522%2520class%253D%2522kitty%2520avatar-lg%2522%2520%252F%253E%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-avatar-badge%2520icon-l%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-avatar%2520badge-xl%2522%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522.%252FAsset%252Fkitty.png%2522%2520alt%253D%2522%2522%2520class%253D%2522kitty%2520avatar-md%2522%2520%252F%253E%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-avatar-badge%2520icon-l%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%2520%2520%250A"
+  style="width: 100%; height: 398px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+    </section>
+
+
+    <!-- --- Button ---- -->
+
+    <section class="main-title" id="buttons">
+      <h2 class="avatar-heading">Button</h2>
+      <p class="component-navbar-item">Buttons are also called as call to action. We have range of buttons and their states. You may use a tag or button element, you need to add respective classes, and you are good to go.</p>
+      <h3 class="avatar-heading">Primary Button</h3>
+      <p class="component-navbar-item"> 
+        Whenever you want your user to click on a link or button, use primary style buttons.  
+      </p>
+
+      <div class="button-items">
+          <button class="btn btn-primary btn-round">Primary</button>
+          <button class="btn btn-success btn-round">Success</button>
+          <button class="btn btn-warning btn-round">Warning</button>
+          <button class="btn btn-danger btn-round">Danger</button>
+      </div>
+      <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28248%2C192%2C200%2C0.94%29&t=base16-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=37px&ph=42px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=13.5px&lh=130%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-round-1%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-success%2520btn-round-1%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-warning%2520btn-round-1%2522%253EWarning%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-danger%2520btn-round-1%2522%253EDanger%253C%252Fbutton%253E%250A%2520%2520%250A"
+  style="width: 100%; height: 260px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+      <h3 class="avatar-heading">Link Button</h3>
+      <p class="component-navbar-item">
+        Whenever you want your user to click on a link , use link style buttons.  
+      </p>
+
+      <div class="button-items">
+          <a href="#" class="btn btn-primary btn-round">Primary</a>
+          <a href="#" class="btn btn-success btn-round">Success</a>
+          <a href="#" class="btn btn-warning btn-round">Warning</a>
+          <a href="#"  class="btn btn-danger btn-round">Danger</a>
+      </div>
+      <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28248%2C192%2C200%2C0.94%29&t=base16-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=37px&ph=42px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=13.5px&lh=130%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520btn-primary%2520btn-round-1%2522%253EPrimary%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520btn-success%2520btn-round-1%2522%253ESuccess%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520btn-warning%2520btn-round-1%2522%253EWarning%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520%2520class%253D%2522btn%2520btn-danger%2520btn-round-1%2522%253EDanger%253C%252Fa%253E%250A%2520%2520%250A"
+  style="width: 100%; height: 250px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+      <h3 class="avatar-heading">Icon Button</h3>
+      <p class="component-navbar-item">
+        Whenever you want your user to click on a icon, use icon style buttons.  
+      </p>
+
+      <div class="button-items">
+          <a href="#" class="btn icon-button"><i class="fas fa-shopping-cart fa-lg"></i></a>
+          <a href="#" class="btn icon-button"><i class="fas fa-trash fa-lg"></i></a>
+          <a href="#" class="btn icon-button"><i class="fas fa-times fa-lg"></i></a>
+          <a href="#"  class="btn icon-button"><i class="fas fa-share-alt fa-lg"></i></a>
+          <a href="#"  class="btn icon-button"> <i class="fas fa-bell fa-lg"></i> </a>
+      </div>
+      <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28248%2C192%2C200%2C0.94%29&t=base16-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=37px&ph=42px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=13.5px&lh=130%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520icon-button%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520fa-lg%2522%253E%253C%252Fi%253E%250A%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520icon-button%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-trash%2520fa-lg%2522%253E%253C%252Fi%253E%250A%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520icon-button%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520fa-lg%2522%253E%253C%252Fi%253E%250A%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520%2520class%253D%2522btn%2520icon-button%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520fa-lg%2522%253E%253C%252Fi%253E%250A%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520%2520class%253D%2522btn%2520icon-button%2522%253E%2520%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bell%2520fa-lg%2522%253E%253C%252Fi%253E%2520%250A%253C%252Fa%253E%250A%2520%2520%250A"
+  style="width: 100%; height: 250px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+      <h3 class="avatar-heading">Floating action Button</h3>
+      <p class="component-navbar-item">
+        Whenever you want a  floating button, use Floating action buttons.  
+      </p>
+      <div class="button-items">
+        <div class="fab1">
+          <a href="#" class="floating-btn flex center material-icons">add</a>
+        </div>
+      </div>
+      <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28248%2C192%2C200%2C0.94%29&t=base16-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=22px&ph=22px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=13.5px&lh=130%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522floating-btn%2520flex%2520center%2520material-icons%2522%253Eadd%253C%252Fa%253E%250A"
+  style="width: 100%; height: 150px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+    </section>
     <!-- ---- Footer section ---- -->
 
     <section class="footer">
