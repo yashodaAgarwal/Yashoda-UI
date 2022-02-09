@@ -18,6 +18,7 @@
 }
 .badge-items .kitty {
   padding: 10px;
+
 }
 .badge-avatar {
   position: relative;
@@ -60,19 +61,8 @@
   width: 4rem;
   height: 4rem;
 }
-
-.icon-xl {
-  width: 1.2rem;
-  height: 1.2rem;
-  font-size: 0.7rem;
-}
-.icon-l {
+.icon-lg {
   width: 1rem;
   height: 1rem;
   font-size: 0.6rem;
-}
-.icon-md {
-  width: 0.8rem;
-  height: 0.8rem;
-  font-size: 0.5rem;
 }
