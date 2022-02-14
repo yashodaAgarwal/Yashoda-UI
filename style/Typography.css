@@ -1,6 +1,6 @@
 .Typo-items{
     padding:20px;
-    border: 0.5px solid rgba(128, 128, 128, 0.363);
+    border: 0.5px solid var(--border-color);
     margin: 20px;
     display:flex;
     flex-direction: column;
@@ -34,7 +34,7 @@
   }
   
   .gray {
-    color: gray;
+    color: var(--grey-color);
   }
   
   .center {

@@ -7,13 +7,13 @@
 .simple-input-box{
 width: 60%;
 padding: 10px;
-border: 1px solid black;
+border: 1px solid var(--black-color);
 border-radius: 10px;    
 }
 
 .validate-submit{
 margin-top:5px ;
-color: white;
+color: var(--white-color);
 padding: 5px;
 border-radius: 10px;
 background-color:var(--red-color);
@@ -34,6 +34,6 @@ width: 20%;
 }
 .input-items{
     padding:20px;
-    border: 0.5px solid rgba(128, 128, 128, 0.363);
+    border: 0.5px solid var(--border-color);
     margin: 20px;
 }

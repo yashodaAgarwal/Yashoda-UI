@@ -23,7 +23,7 @@
     padding:10px 10px 10px 10px;
     margin:20px 0px 20px 0px;
     border-radius: 10px;
-    border: 0.5px solid rgba(128, 128, 128, 0.363);
+    border: 0.5px solid var(--border-color);
 }
 .alert-icon{
     padding:0px 10px 0px 10px

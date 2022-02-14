@@ -1,10 +1,12 @@
 body {
   box-sizing: border-box;
 }
-
+.sidebar ul{
+  padding-bottom:100px ;
+}
 .sidebar ul li a {
   color: var(--black-color);
-  padding: 100px 30px;
+  padding: 0px 30px;
 }
 .sidebar {
   position: fixed;
@@ -27,10 +29,9 @@ body {
 }
 
 .sidebar ul li a:hover {
-  color: brown;
+  color: var(--white-color);
+  background-color: var(--background-color);
   margin-left: 20px;
   transition: 0.4s;
 }
-.sidebar ul li a:active {
-  color: rgb(82, 22, 22);
-}
+

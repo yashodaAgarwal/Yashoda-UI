@@ -4,12 +4,11 @@
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: transparent;
-  border: 0.5px solid rgba(128, 128, 128, 0.363);
+  border: 0.5px solid var(--border-color);
   margin: 10px;
 }
 .badge-button {
   position: relative;
-  /* margin: 10px; */
   color: var(--black-color);
   background-color: transparent;
   border: none;
