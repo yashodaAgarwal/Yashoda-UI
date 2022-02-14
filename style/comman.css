@@ -9,6 +9,8 @@
     --green-color:#2ecc71;
     --yellow-color:#f1c40f;
     --blue-color:#3498db;
+    --border-color:rgba(128, 128, 128, 0.363);
+    --grey-color:gray;
 }
 
 *{

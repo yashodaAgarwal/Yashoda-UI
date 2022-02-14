@@ -1,36 +1,37 @@
-body{
-    box-sizing: border-box;
+body {
+  box-sizing: border-box;
+}
+.sidebar ul{
+  padding-bottom:100px ;
+}
+.sidebar ul li a {
+  color: var(--black-color);
+  padding: 0px 30px;
+}
+.sidebar {
+  position: fixed;
+  background-color: var(--white-color);
+  width: 200px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: scroll;
+}
+.sidebar h3 {
+  text-align: center;
+  padding: 100px 20px 20px 20px;
+}
+.sidebar ul li {
+  text-align: center;
+  margin: 25px 0;
+  font-weight: 800;
 }
 
-.sidebar ul li a{
-    color: var(--black-color);
-    padding: 0 30px;
+.sidebar ul li a:hover {
+  color: var(--white-color);
+  background-color: var(--background-color);
+  margin-left: 20px;
+  transition: 0.4s;
 }
-.sidebar{
-    position: fixed;
-    background-color: var(--white-color);
-    width: 200px;
-    height: 100%; 
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-.sidebar h3{
-    text-align: center;
-    padding: 100px 20px 20px 20px;
-}
- .sidebar ul li{
-     text-align: center;
-     margin: 25px 0;
-     font-weight: 800;
- } 
 
- .sidebar ul li a:hover{
-     color: brown;
-     margin-left: 20px;
-     transition: 0.4s; 
- }
- .sidebar ul li a:active{
-    color: rgb(82, 22, 22);
-
-}
