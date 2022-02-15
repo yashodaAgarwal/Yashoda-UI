@@ -1,0 +1,14 @@
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+.image-items{
+    padding:20px;
+    border: 0.5px solid var(--border-color);
+    margin: 20px;
+}
+.img-round{
+    border-radius: 50%;
+    width:18rem;
+    height: 18rem;
+}

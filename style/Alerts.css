@@ -1,0 +1,30 @@
+.alert-primary {
+    background-color: #7FD2E6;
+    color: #29438b;
+}
+.alert-secondary {
+    background-color: #eaeaec;
+    color: #696b79;
+}
+.alert-success {
+    background-color: #84f1c9;
+    color: #1b7052;
+}
+.alert-danger {
+    color: #dc3545;
+    background-color: #fcc5c5;
+}
+.alert-warning {
+    color: #ff9204;
+    background-color: #ffe7c5;
+}
+
+.alert-items{
+    padding:10px 10px 10px 10px;
+    margin:20px 0px 20px 0px;
+    border-radius: 10px;
+    border: 0.5px solid var(--border-color);
+}
+.alert-icon{
+    padding:0px 10px 0px 10px
+}
