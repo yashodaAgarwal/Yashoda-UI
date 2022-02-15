@@ -13,6 +13,7 @@
     --grey-color:gray;
     --light-gray: lightgray;
     --navigation-color:rgb(209, 201, 201);
+    --card-overlay-color:rgba(0, 0, 0, 0.6);
 }
 
 *{

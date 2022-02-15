@@ -1,7 +1,7 @@
 .navigation-item{
-    padding:20px;
+    padding:1.25rem;
     border: 0.5px solid var(--border-color);
-    margin: 20px;
+    margin: 1.25rem;
 }
 .nav-item{
     background-color: var(--navigation-color);
@@ -10,20 +10,20 @@
 .left-nav{
     align-items: center;
     justify-content: space-between;
-    width:700px;
+    width:43.75rem;
     padding-right: 12em;
 }
 .right-nav{
     align-items: center;
     justify-content: space-around;
-    width:300px;    
+    width:18.75rem; 
 }
 .nav-heading{
-    font-size:20px;
+    font-size:1.25rem;
     text-decoration: none;
     color:var(--black-color);
     font-weight: 800;
-    padding-left: 60px;
+    padding-left: 3.75rem;
 }
 .search-bar{
     padding: 8px 15px;
