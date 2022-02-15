@@ -1,8 +1,8 @@
 body {
   box-sizing: border-box;
 }
-.sidebar ul{
-  padding-bottom:100px ;
+.sidebar ul {
+  padding-bottom: 100px;
 }
 .sidebar ul li a {
   color: var(--black-color);
@@ -34,4 +34,3 @@ body {
   margin-left: 20px;
   transition: 0.4s;
 }
-
