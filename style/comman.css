@@ -1,39 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 :root{
-    --black-color:black;
+    --backgroud-color:black;
     --white-color:#ffffff;
-    --background-color:#F8C0C8; 
-    /* --background-color:#c99198; */
-    --hover-color:#f3bbc3;
-    --red-color:#e74c3c; 
-    --green-color:#2ecc71;
-    --yellow-color:#f1c40f;
-    --blue-color:#3498db;
-    --border-color:rgba(128, 128, 128, 0.363);
-    --grey-color:gray;
-    --light-gray: lightgray;
-    --navigation-color:rgb(209, 201, 201);
-    --card-overlay-color:rgba(0, 0, 0, 0.6);
-    --list-hover:#e6e4e4;
-}
+    --primary-color:#C26DBC;
 
-*{
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
-
-.flex{
-    display:flex;
-}
-
-.center{
-    align-items: center;
-    justify-content: center;
-}
-
-.flex-wrap{
-    display: flex;
-    flex-wrap: nowrap;
+    
 }
