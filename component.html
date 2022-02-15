@@ -577,6 +577,103 @@
 </iframe>
     </section>
 
+    <!-- --- List ---  -->
+
+    <section class="main-title" id="lists">
+      <h2 class="component-heading" >Lists</h2>
+      <p class="component-navbar-item">Lists can be used at so many places, navigation bar, stacked notifications, article pages, etc.</p>
+      <h3 class="component-heading">Spaced (normal lists)</h3>
+      <p class="component-navbar-item">
+        The most basic list group is an unordered list with list items and the proper classes. Build upon it with the options that follow, or with your own CSS as needed. </p>
+      <div class="list-items flex lists">
+        <ul class="unordered-list">
+          <li>List-items 1</li>
+          <li>List-items 2</li>
+          <li>List-items 3</li>
+        </ul> 
+        <ol class="ordered-list">
+          <li>List item with alphabets</li>
+          <li>List item with alphabets</li>
+          <li>List item with alphabets</li>
+        </ol>
+        <ol class="reverse-list">
+          <li>Number list item</li>
+          <li>Number list item</li>
+          <li>Number list item</li>
+        </ol>
+        <ul class="no-bullet-list">
+          <li>List-items 1</li>
+          <li>List-items 2</li>
+          <li>List-items 3</li>
+        </ul>
+      </div>
+      <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28248%2C192%2C200%2C0.94%29&t=base16-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=46px&ph=49px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=13.5px&lh=130%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522list-items%2520flex%2520lists%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522unordered-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList-items%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList-items%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList-items%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522ordered-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520item%2520with%2520alphabets%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520item%2520with%2520alphabets%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520item%2520with%2520alphabets%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522reverse-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ENumber%2520list%2520item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ENumber%2520list%2520item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ENumber%2520list%2520item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522no-bullet-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList-items%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList-items%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList-items%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%253C%252Fdiv%253E"
+  style="width: 100%; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+      <h3 class="component-heading">Stacked (Notification Page)</h3>
+      <p class="component-navbar-item">
+        This is stacked list without bullets. We can add desired component inside "li" element. Check below code for stacked list.
+      </p>
+
+      <div class="list-items flex">
+        <ul class="list-item">
+          <li class="noti-list">
+            <div class="noti-image flex center">
+              <img
+                class="noti-image-list"
+                src="./Asset/watsap.png"
+                alt="watsapp"
+              />
+            </div>
+            <div class="noti-text">
+              <h4 class="noti-heading">Watsapp</h4>
+              <p class="noti-msg">
+                Hello dev, You have a message...
+              </p>
+            </div>
+          </li>
+          <li class="noti-list">
+            <div class="noti-image">
+              <img
+                class="noti-image-list"
+                src="./Asset/facebook.png"
+                alt="Facebook"
+              />
+            </div>
+            <div class="noti-text">
+              <h4 class="noti-heading">Facebook</h4>
+              <p class="noti-msg">
+                Hello dev, You have a message...
+              </p>
+            </div>
+          </li>
+          <li class="noti-list">
+            <div class="noti-image">
+              <img
+                class="noti-image-list"
+                src="./Asset/instagram.png"
+                alt="Facebook"
+              />
+            </div>
+            <div class="noti-text">
+              <h4 class="noti-heading">Instagram</h4>
+              <p class="noti-msg">
+                Hello dev, You have a message...
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28248%2C192%2C200%2C0.94%29&t=base16-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=46px&ph=49px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=13.5px&lh=130%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-item%2522%253E%250A%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522noti-list%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522noti-image%2520flex%2520center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522noti-image-list%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522.%252FAsset%252Fwatsap.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522watsapp%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522noti-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522noti-heading%2522%253EWatsapp%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522noti-msg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Hello%2520dev%252C%2520You%2520have%2520a%2520message...%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%253C%252Ful%253E"
+  style="width: 100%; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+    </section>
+
 
     <!-- --- Navbar ---  -->
     <section class="main-title" id="navigation">
@@ -603,10 +700,44 @@
       </div>
       <iframe
   src="https://carbon.now.sh/embed?bg=rgba%28248%2C192%2C200%2C0.94%29&t=base16-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=46px&ph=49px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=13.5px&lh=130%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522flex%2520nav-item%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522left-nav%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522nav-heading%2522%2520%253EMy%2520website%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522search-bar%2522%2520placeholder%253D%2522Search%2522%252F%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522right-nav%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520%2520btn-round%2522%253ELogin%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520%2520class%253D%2522badge-button%2520badge-lg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-button-badge%2520flex%2520center%2520icon-xl%2522%253E16%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520%2520class%253D%2522badge-button%2520badge-lg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-button-badge%2520flex%2520center%2520icon-xl%2522%253E16%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fnav%253E"
-  style="width: 100%; height: 331px; border:0; transform: scale(1); overflow:hidden;"
+  style="width: 100%; height: 300px; border:0; transform: scale(1); overflow:hidden;"
   sandbox="allow-scripts allow-same-origin">
 </iframe>
     </section>
+
+     <!-- --- Rating --- -->
+
+     <section class="main-title" id="rating">
+      <h2 class="component-heading" >Rating</h2>
+      <p class="component-navbar-item">Rating components can be used as read-only badge or in reviews section. Can be used in reviews section as form too.</p>
+      <div class="rating-item ">
+        <div class="star-container">
+          <div class="rating-wrapper">
+            <input type="radio" name="rating" id="star-1" /><label
+              for="star-1"
+            ></label>
+            <input type="radio" name="rating" id="star-2" /><label
+              for="star-2"
+            ></label>
+            <input type="radio" name="rating" id="star-3" /><label
+              for="star-3"
+            ></label>
+            <input type="radio" name="rating" id="star-4" /><label
+              for="star-4"
+            ></label>
+            <input type="radio" name="rating" id="star-5" /><label
+              for="star-5"
+            ></label>
+          </div>
+        </div>
+      </div>
+      <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28248%2C192%2C200%2C0.94%29&t=base16-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=46px&ph=49px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=13.5px&lh=130%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522star-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522star-1%2522%2520%252F%253E%253Clabel%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520for%253D%2522star-1%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522star-2%2522%2520%252F%253E%253Clabel%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520for%253D%2522star-2%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522star-3%2522%2520%252F%253E%253Clabel%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520for%253D%2522star-3%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522star-4%2522%2520%252F%253E%253Clabel%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520for%253D%2522star-4%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522star-5%2522%2520%252F%253E%253Clabel%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520for%253D%2522star-5%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+  style="width: 100%; height: 300px; border:0; padding:2rem; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+    </section>
+
     <!-- ---- Footer section ---- -->
 
     <section class="footer">
