@@ -23,30 +23,30 @@
 .unordered-list{
     list-style-type: square ;
 }
-.noti-list {
+.stacked-list {
     padding: 10px;
     display: flex;
     align-content: center;
     width: 25rem;
     margin: 10px 0px;
   }
-  .noti-list:hover{
+  .stacked-list:hover{
     background-color: var(--list-hover);
   }
-  .noti-heading{
+  .stacked-heading{
       font-size: 15px;
       padding: 5px;
   }
    
-  .noti-msg{
+  .stacked-msg{
       font-size:12px;
       padding:0px 5px
   }
 
-  .noti-image{
+  .stacked-image{
       padding: 0px 12px 0px 5px;
   }
-  .noti-image-list{
+  .stacked-image-list{
     height:3rem;
     width:3rem;
   }
