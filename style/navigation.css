@@ -7,7 +7,6 @@
     background-color: var(--navigation-color);
 
 }
-<<<<<<< Updated upstream
 .left-nav{
     align-items: center;
     justify-content: space-between;
@@ -18,7 +17,7 @@
     align-items: center;
     justify-content: space-around;
     width:18.75rem; 
-=======
+}
 .left-nav {
   align-items: center;
   justify-content: space-between;
@@ -31,7 +30,6 @@
   justify-content: space-around;
   /* width: 18.75rem; */
   width: 30%;
->>>>>>> Stashed changes
 }
 .nav-heading{
     font-size:1.25rem;
