@@ -1,5 +1,5 @@
 .main-title {
-  margin-left: 12.5rem;
+  margin-left: 13.5rem;
   padding: 40px;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .component-navbar-item {
-  font-size: 15px;
+  font-size: 1.1rem;
   padding-left: 20px;
   font-weight: 100;
 }

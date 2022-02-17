@@ -26,9 +26,11 @@
 .navbar-list a {
   text-decoration: none;
 }
-.Logo {
+a.Logo {
   padding: 20px 20px 20px 90px;
-  font-size: 30px;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: bolder;
   text-decoration: none;
   color: var(--white-color);
 }

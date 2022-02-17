@@ -40,7 +40,7 @@
 .icon-button-badge {
   position: absolute;
   top: 0.9rem;
-  right: 0.7rem;
+  right: 0.8rem;
   background-color: var(--red-color);
   color: var(--white-color);
   border-radius: 50%;
