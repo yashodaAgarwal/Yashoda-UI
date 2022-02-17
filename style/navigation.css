@@ -5,30 +5,16 @@
 }
 .nav-item{
     background-color: var(--navigation-color);
-
-}
-.left-nav{
-    align-items: center;
-    justify-content: space-between;
-    width:43.75rem;
-    padding-right: 12em;
-}
-.right-nav{
-    align-items: center;
-    justify-content: space-around;
-    width:18.75rem; 
 }
 .left-nav {
   align-items: center;
   justify-content: space-between;
-  /* width: 43.75rem; */
   width:70%;
   padding-right: 12em;
 }
 .right-nav {
   align-items: center;
   justify-content: space-around;
-  /* width: 18.75rem; */
   width: 30%;
 }
 .nav-heading{
