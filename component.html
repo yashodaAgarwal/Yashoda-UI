@@ -96,7 +96,7 @@
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#modal">
             <span>Modal</span>
           </a>
         </li>
@@ -106,7 +106,7 @@
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#toast">
             <span>Toast</span>
           </a>
         </li>
@@ -387,7 +387,7 @@
   sandbox="allow-scripts allow-same-origin">
 </iframe>
 <h3 class="component-heading">Text only cards</h3>
-      <p clabss="component-navbar-item">
+      <p class="component-navbar-item">
         Badges can be integrated with Avatars by showing colors to show the online status of user. 
       </p>
       <div class="badge-items flex">
@@ -705,6 +705,31 @@
 </iframe>
     </section>
 
+     <!-- --- Modal ---  -->
+
+     <section class="main-title" id="modal">
+      <h2 class="component-heading" >Modal</h2>
+      <p class="component-navbar-item">A modal is a dialog box/popup window that is displayed on top of the current page</p>
+      <div class="rating-item flex center">
+        <button class="modal-btn open" >Click Me</button>
+        <div class="modal-container flex center" id="modal-container">
+          <div class="modal">
+            <h1>Modals are</h1>
+            <p>Modals are built with HTML, CSS, and JavaScript.
+               They’re positioned over everything else in the document and remove scroll from the <body> so that modal content scrolls instead</p>
+            <button class="modal-btn" id="close">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+      <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28248%2C192%2C200%2C0.94%29&t=base16-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=46px&ph=49px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=13.5px&lh=130%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522modal-btn%2520open%2522%2520%253EClick%2520Me%253C%252Fbutton%253E%250A%2520%2520%253Cdiv%2520class%253D%2522modal-container%2520flex%2520center%2522%2520id%253D%2522modal-container%2522%253E%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EModals%2520heading%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EModal%2520text%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522modal-btn%2522%2520id%253D%2522close%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Close%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2509%2509"
+  style="width: 100%; height: 326px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+    </section>
+
      <!-- --- Rating --- -->
 
      <section class="main-title" id="rating">
@@ -738,6 +763,32 @@
 </iframe>
     </section>
 
+   
+
+    <!-- ---- Toast ---- -->
+    <section class="main-title" id="toast">
+      <h2 class="component-heading" >Toast</h2>
+      <p class="component-navbar-item">Toasts are lightweight notifications designed to mimic the push notifications that have been popularized by mobile and desktop operating systems.
+         They’re built with flexbox, so they’re easy to align and position.</p>
+      <div class="image-items">
+        <button class="modal-btn toast-click" >launch Toast</button>
+        <div class="container" id="toast-container">
+        <div class="toast-container" >
+          <div class="Toast-top flex">
+            <i class="fas fa-wifi fa-lg wifi-icon flex center"></i>
+            <p class="toast-text">You are online now.<br><span>Hurray ! Internet is connected</span></p>
+            <i class="fas fa-times fa-lg cross_icon"></i>   
+          </div>
+        </div>
+      </div>
+      </div>
+      <iframe
+      src="https://carbon.now.sh/embed?bg=rgba%28248%2C192%2C200%2C0.94%29&t=base16-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=46px&ph=49px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=13.5px&lh=130%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522modal-btn%2520toast-click%2522%2520%253EClick%2520Me%253C%252Fbutton%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522container%2522%2520id%253D%2522toast-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast-container%2522%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Toast-top%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-wifi%2520fa-lg%2520wifi-icon%2520flex%2520center%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522toast-text%2522%253EYou%2520are%2520online%2520now.%253Cbr%253E%253Cspan%253EHurray%2520%21%2520Internet%2520is%2520connected%253C%252Fspan%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520fa-lg%2520cross_icon%2522%253E%253C%252Fi%253E%2509%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2509%2509"
+      style="width: 100%; height: 326px; border:0; transform: scale(1); overflow:hidden;"
+      sandbox="allow-scripts allow-same-origin">
+    </iframe>
+    </section>
+
      <!-- --- Grid ---  -->
 
      <section class="main-title" id="Grid">
@@ -759,6 +810,8 @@
       </div>
     </section>
 
+
+
     <!-- ---- Footer section ---- -->
 
     <section class="footer">
@@ -773,5 +826,7 @@
         ><i class="footer-icons fab fa-twitter"></i
       ></a>
     </section>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>

@@ -16,6 +16,7 @@
   --card-overlay-color: rgba(0, 0, 0, 0.6);
   --list-hover: #e6e4e4;
   --grid-background:rgba(255, 255, 255, 0.8);
+  --shadow-color:rgba(0,0,0,0.2);
 }
 
 * {
