@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 @import url(style/comman.css);
 @import url(style/nav.css);
@@ -15,11 +15,9 @@
 @import url(style/Rating.css);
 @import url(style/Grid.css);
 @import url(style/Card.css);
-
-
-
-
-
+@import url(style/modal.css);
+@import url(style/Toast.css);
+@import url(style/installation.css);
 
 
 

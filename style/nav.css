@@ -26,9 +26,11 @@
 .navbar-list a {
   text-decoration: none;
 }
-.Logo {
+a.Logo {
   padding: 20px 20px 20px 90px;
-  font-size: 30px;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: bolder;
   text-decoration: none;
   color: var(--white-color);
 }
@@ -36,14 +38,12 @@
 .main-section {
   height: 500px;
   padding-left: 120px;
-  
 }
 .main-section-container {
   display: flex;
   flex-direction: row wrap;
   justify-content: space-between;
   align-items: center;
-  
 }
 .left-main-section-container {
   flex-basis: 100%;
@@ -99,28 +99,28 @@
   flex-basis: 100%;
   min-width: 300px;
   margin: 30px;
-  position:relative;
+  position: relative;
   z-index: -1;
   margin-top: 80px;
 }
-.image{
+.image {
   height: 500px;
   width: 500px;
 }
 
-.footer{
-    background-color: var(--background-color);
-    color: var(--white-color);
-    text-align: center;
-    padding:30px 0px 10px 0px;
-    margin-top: 120px;
-    height:60px;
-    position: relative;
-    z-index: 2;
-    width: 100%;
+.footer {
+  background-color: var(--background-color);
+  color: var(--white-color);
+  text-align: center;
+  padding: 30px 0px 10px 0px;
+  margin-top: 120px;
+  height: 60px;
+  position: relative;
+  z-index: 2;
+  width: 100%;
 }
-.footer-icons{
-    color: var(--white-color);
-    text-align: center; 
-    padding: 5px;   
+.footer-icons {
+  color: var(--white-color);
+  text-align: center;
+  padding: 5px;
 }

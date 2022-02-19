@@ -1,0 +1,38 @@
+.Toast-top{
+    justify-content: space-between;
+    align-items: center;
+}
+.wifi-icon{
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 3.2rem;
+    background-color:  var(--green--color);
+}
+.toast-text{
+    font-weight: 800;
+    font-size: 14px;
+    text-align: left;
+}
+.toast-container{
+    background-color: var(--white-color);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px var(--shadow-color);
+    padding: 1.25rem 1.8rem;
+    width: 20rem;
+    border-left:10px solid var(--green-color);
+    justify-content: center;
+}
+.container.show{
+    pointer-events: auto;
+    opacity: 1;
+    z-index: 99;
+}
+.container{
+    position:fixed;
+    bottom:1.25rem;
+    right:1.8rem;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    z-index: 10;
+}

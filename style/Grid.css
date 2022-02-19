@@ -1,0 +1,30 @@
+.grid-container {
+  width: 37.5rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: var(--background-color);
+  padding: 10px;
+}
+.grid-item {
+  background-color: var(--grid-background);
+  border: 5px solid var(--background-color);
+  padding: 1.25rem;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.grid-image {
+  height: 15.5rem;
+  width: 15.5rem;
+}
+.grid-items {
+  padding: 1.25rem;
+  margin: 10px;
+}
+.grid-container-3 {
+  width: 50rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: var(--background-color);
+  padding: 10px;
+}
+

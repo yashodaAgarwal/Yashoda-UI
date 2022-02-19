@@ -16,7 +16,6 @@
 }
 .badge-items .kitty {
   padding: 10px;
-
 }
 .badge-avatar {
   position: relative;
@@ -41,9 +40,9 @@
 .icon-button-badge {
   position: absolute;
   top: 0.9rem;
-  right: 0.7rem;
+  right: 0.8rem;
   background-color: var(--red-color);
-  color:var(--white-color);
+  color: var(--white-color);
   border-radius: 50%;
   border: 2px solid var(--white-color);
 }
@@ -64,12 +63,12 @@
   height: 1rem;
   font-size: 0.6rem;
 }
-.icon-xl{
+.icon-xl {
   width: 1.2rem;
   height: 1.2rem;
   font-size: 0.8rem;
 }
-.icon-md{
+.icon-md {
   width: 0.8rem;
   height: 0.8rem;
   font-size: 0.5rem;
