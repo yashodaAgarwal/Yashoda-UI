@@ -28,8 +28,8 @@
     background-color: var(--white-color);
     border-radius: 5px;
     box-shadow: 0 2px 4px var(--shadow-color);
-    padding: 30px 3.2rem;
-    width: 600px;
+    padding: 1.8rem 3.2rem;
+    width: 37.5rem;
     max-width: 100%;
     text-align:center;
 }
