@@ -112,7 +112,7 @@ a.Logo {
   background-color: var(--background-color);
   color: var(--white-color);
   text-align: center;
-  padding: 30px 0px 10px 0px;
+  padding: 30px 30px 10px 0px;
   margin-top: 120px;
   height: 60px;
   position: relative;
